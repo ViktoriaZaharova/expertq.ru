@@ -1,0 +1,70 @@
+/*==========  footer  ==========*/
+footer {
+  -webkit-filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.15));
+  background: #2F80ED;
+  color: #fff;
+  padding: 32px 0 10px; }
+  footer .menu li a {
+    color: #fff; }
+    footer .menu li a:hover {
+      color: #BDBDBD; }
+  footer .contacts-box a {
+    color: #fff; }
+  footer .contacts-box .svg-icon {
+    fill: #fff; }
+
+.text-footer {
+  font-size: 12px;
+  margin-top: 30px; }
+
+/*==========  footer end  ==========*/
+/*==========  modal  ==========*/
+.modal-dialog {
+  max-width: 400px;
+  margin: 0 auto; }
+
+.modal-content {
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  border: none;
+    border-radius: 12px;
+  padding: 25px 30px 62px; }
+  .modal-content .btn {
+    margin: 0 auto; }
+  .modal-content .box-text {
+    text-align: center;
+    color: #4F4F4F;
+    font-size: 18px;
+    margin: 64px auto 72px; }
+
+.modal-title {
+  text-align: center;
+  color: #333333;
+  font-size: 24px;
+  font-weight: 500;
+  width: 100%;
+  margin: 0 auto; }
+
+.modal-header {
+  padding: 0;
+  border: none; }
+  .modal-header .close {
+    position: absolute;
+    padding: 6px;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    border: none;
+      border-radius: 0;
+    z-index: 1;
+    opacity: 1;
+    fill: #2F80ED;
+    top: 8px;
+    right: 8px; }
+
+.modal-body {
+  padding: 0; }
+
+/*==========  modal end  ==========*/

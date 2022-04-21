@@ -1,0 +1,110 @@
+@import "vars"
+
+/*==========  header  ==========*/
+header
+  background: #fff
+  filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.15))
+  padding: 16px 0
+
+.logo
+  max-width: 265px
+  width: 100%
+  display: flex
+  align-items: center
+  margin: 0 0 -18px
+
+.menu
+  margin: 0 auto
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  font-size: 14px
+  font-weight: 500
+  text-transform: uppercase
+  li
+    margin: 0 32px 0 0
+    &:last-child
+      margin: 0
+    a
+      color: #374151
+      &:hover
+        color: $accent
+
+.contacts-box
+  display: flex
+  align-items: center
+  a
+    font-size: 14px
+    font-weight: 500
+    color: $accent
+    display: flex
+    align-items: center
+    margin: 0 47px 0 0
+    &:last-child
+      margin: 0
+    &:hover
+      color: $grey
+    .svg-icon
+      fill: $accent
+      margin: 0 4px 0 0
+      width: 20px
+      height: 20px
+      min-width: 20px
+      display: flex
+      align-items: center
+      justify-content: center
+
+.btn-burger
+  width: 24px
+  height: 16px
+  cursor: pointer
+  display: none
+  flex-direction: column
+  justify-content: space-between
+  align-items: center
+  span
+    width: 100%
+    background: $accent
+    height: 2px
+    display: block
+    border-radius: 2px
+/*==========  header end  ==========*/
+
+
+
+/*==========  mobile-menu  ==========*/
+.mobile-menu
+  position: fixed
+  height: 100%
+  width: 100%
+  max-width: 290px
+  padding: 30px
+  background: #fff
+  filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.15))
+  z-index: 5
+  overflow-y: auto
+  display: none
+  .menu
+    margin: 20px 0
+    width: 100%
+
+    li
+      margin: 0 0 10px
+      width: 100%
+  .contacts-box
+    flex-direction: column
+    align-items: flex-start
+  .phone
+    margin: 0 0 20px
+
+.btn-close
+  position: absolute
+  top: 20px
+  right: 20px
+  width: 24px
+  height: 24px
+  cursor: pointer
+  fill: $accent
+
+
+/*==========  mobile-menu end  ==========*/

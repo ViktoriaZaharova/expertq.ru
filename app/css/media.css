@@ -1,0 +1,195 @@
+/*==========  Desktop First  ==========*/
+@media only screen and (max-width: 1200px) {
+  .question-box2 .question-box__image {
+    min-width: auto;
+    width: 100%;
+    max-width: 400px; }
+  h2 {
+    font-size: 26px; }
+  .question-box p {
+    font-size: 16px; }
+  .question-box__image {
+    min-width: 550px; }
+  .question-box h3 {
+    font-size: 30px; }
+  .wrapper-content {
+    padding: 30px 30px 0; }
+  .about {
+    margin: 0 0 30px; }
+  .home-content {
+    margin: 140px 0 40px; }
+  .home-image {
+    min-width: 650px; }
+  h1 {
+    font-size: 40px; } }
+
+@media only screen and (max-width: 992px) {
+  .contacts-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+    .contacts-box a {
+      margin: 0 0 10px; }
+  .text-footer {
+    text-align: center; }
+  .text-right.text-footer {
+    text-align: center !important; }
+  .menu li {
+    margin: 0 20px 0 0; }
+  .logo {
+    max-width: 220px; }
+  .question-box__content {
+    text-align: center; }
+    .question-box__content .btn {
+      margin: 20px auto 0; }
+  .agitation .wrapper-content {
+    padding: 30px 30px 0; }
+  .contact-item {
+    margin: 0 0 30px; }
+    .contact-item:last-child {
+      margin: 0 0 30px; }
+  .form button {
+    margin: 0 auto; }
+  .callback-title {
+    text-align: center; }
+  .callback .wrapper-content {
+    padding: 30px; }
+  .price-image {
+    margin: 30px auto; }
+    .price-image__item {
+      min-width: auto;
+      max-width: 300px;
+      margin: 0 auto; }
+  .quote {
+    padding: 15px 20px;
+    right: auto;
+    left: 50%;
+    top: 55%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+  .contacts-wrapper {
+    margin: 30px 0 0; }
+    .contacts-wrapper h3 {
+      margin: 0 0 20px;
+      font-size: 20px; }
+  .price .btn {
+    margin: 0 auto; }
+  .price .wrapper-content {
+    padding: 30px;
+    margin: 30px 0 0; }
+  .case-title {
+    padding: 0;
+    text-align: center; }
+    .case-title p {
+      font-size: 18px; }
+  .case {
+    margin: 40px 0; }
+    .case .wrapper-content {
+      padding: 30px 30px 0; }
+  .case-item {
+    margin: 0 0 30px;
+    line-height: 150%; }
+    .case-item:last-child {
+      margin: 0 0 30px; }
+    .case-item h3 {
+      font-size: 20px;
+      margin: 0 0 20px;
+      padding: 0;
+      line-height: normal; }
+  .question-box h3 {
+    max-width: none;
+    font-size: 28px; }
+  .case-box__image {
+    margin: 0 0 30px; }
+  .question-box__image {
+    margin: 0 auto;
+    min-width: auto;
+    width: 100%;
+    max-width: 400px;
+    float: none; }
+  .about-box {
+    margin: 0 0 40px; }
+  .about .box-text {
+    font-size: 18px;
+    margin: 20px 0;
+    max-width: none; }
+  .home-image {
+    min-width: auto;
+    max-width: 500px;
+    position: relative;
+    margin: -40px auto; }
+  .home-content {
+    margin: 30px 0; }
+    .home-content .box-text {
+      margin: 20px 0 40px;
+      max-width: none; } }
+
+@media only screen and (max-width: 768px) {
+  footer .menu, header .menu {
+    display: none; }
+  .logo {
+    margin: 0 auto -20px 0; }
+  .text-footer {
+    margin: 20px 0 0; }
+  .btn-burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 0 0 20px; }
+  .callback-title p {
+    font-size: 18px; }
+  .price-image {
+    margin: 0 auto; }
+  .quote {
+    min-width: auto;
+    font-size: 14px; }
+  .question-box h3 {
+    font-size: 24px; }
+  h1 {
+    font-size: 34px; }
+  .advantages-box__icon {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    padding: 15px; }
+  .modal-content {
+    padding: 30px; }
+    .modal-content .box-text {
+      margin: 30px auto;
+      font-size: 16px; }
+  .modal-title {
+    font-size: 20px; } }
+
+@media only screen and (max-width: 480px) {
+  footer .contacts-box, header .contacts-box {
+    display: none; }
+  .btn-lg {
+    height: 50px; }
+  .btn {
+    font-size: 14px;
+    height: 50px; }
+  h1 {
+    font-size: 28px; }
+  h2 {
+    font-size: 24px; }
+  .contact-item {
+    margin: 0 0 25px; }
+    .contact-item a {
+      font-size: 18px; }
+  .contact-item__icon {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    padding: 12px; }
+  input, textarea, select {
+    font-size: 14px; }
+  .question-box h3 {
+    font-size: 20px; }
+  .about-box__img {
+    height: 220px; }
+  .about-box h3 {
+    font-size: 20px; } }
