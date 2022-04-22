@@ -13,3 +13,16 @@ $(document).ready(function () {
     });
 });
 //плавный скролл end
+
+$('.btn-burger').on('click', function () {
+   $('.mobile-menu').fadeToggle();
+});
+
+$('.btn-close').on('click', function () {
+    $('.mobile-menu').fadeOut();
+});
+
+$('.btn-toggle-block').on('click', function (e) {
+    e.preventDefault();
+    $('.form-price.active').removeClass('active').siblings('.form-price').addClass('active');
+});

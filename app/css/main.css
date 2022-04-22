@@ -225,6 +225,32 @@
     font-weight: 600;
     color: #333; }
 
+.form-price {
+  display: none;
+  -webkit-transition: .3s ease;
+  transition: .3s ease; }
+
+.form-price.active {
+  display: block; }
+
+.form-price-v2 .price-image__item {
+  max-width: 432px;
+  margin: 0 auto; }
+
+.form-price-v2 button.btn {
+  margin: 0; }
+
+.quote1 {
+  right: auto;
+  left: 0;
+  max-width: 423px;
+  min-width: auto;
+  top: 47%; }
+
+.quote2 {
+  top: auto;
+  bottom: 7%; }
+
 /*==========  section price end  ==========*/
 /*==========  section callback ==========*/
 .callback {

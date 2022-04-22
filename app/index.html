@@ -220,7 +220,7 @@
                   <h3>Конечно, давайте <span class="color-accent">посмотрим и посчитаем</span> вместе сколько трафика
                     может дать <span class="color-accent">Yandex Кью</span></h3>
 
-                  <a href="#" class="btn btn-border">смотреть пример</a>
+                  <a href="#case" class="btn btn-border go_to">смотреть пример</a>
                 </div>
               </div>
               <div class="col-12 col-lg-5">
@@ -237,7 +237,7 @@
 
 
 <!--### SECTION case ###-->
-<section class="case">
+<section class="case" id="case">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -325,13 +325,13 @@
         </div>
       </div>
       <div class="col-12 col-lg-4">
-        <a href="#" class="btn btn-lg btn-accent">сделайте все за меня!</a>
+        <a href="#" class="btn btn-lg btn-accent btn-toggle-block">сделайте все за меня!</a>
       </div>
     </div>
     <div class="row">
       <div class="col-12">
         <div class="wrapper-content">
-          <form method="post" class="form form-price w-100">
+          <form method="post" class="form form-price active w-100">
             <div class="row">
               <div class="col-12 col-lg-7">
                 <div class="row">
@@ -422,7 +422,47 @@
               </div>
 
               <div class="col-12">
-                <button type="submit" class="btn btn-lg btn-accent">Отправить</button>
+                <button type="button" class="btn btn-lg btn-accent" data-toggle="modal" data-target="#thanksModal">Отправить</button>
+              </div>
+            </div>
+          </form>
+
+          <form method="post" class="form form-price form-price-v2 w-100">
+            <div class="row">
+              <div class="col-12">
+                <div class="price-image">
+                  <div class="price-image__item"><img src="img/img4.png" alt=""></div>
+
+                  <div class="quote quote1"><p>Наш специалист перезвонит и позаботится обо всем сам!</p></div>
+
+                  <div class="quote quote2"><p>Единной стоимости быть не может, <strong class="color-accent">стоимость
+                    рассчитывается индивидуально</strong> и может
+                    начинатьсяя от 300 руб за ответ до 600 руб, в зависимости от сложности тематики</p></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4 mb-30">
+                <label>
+                  <span class="input-title">Как вас зовут?</span>
+                  <input type="text" placeholder="Сидор Константинопольский" name="name">
+                </label>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mb-30">
+                <label>
+                  <span class="input-title">Ваш веб-сайт</span>
+                  <input type="text" placeholder="Два-три ответа" name="web">
+                </label>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mb-30">
+                <label>
+                  <span class="input-title">Ваш телефон</span>
+                  <input type="text" placeholder="+7 (495) 123-45-67" name="phone">
+                </label>
+              </div>
+
+              <div class="col-12">
+                <button type="submit" class="btn btn-lg btn-accent">Рассчитать стоимость</button>
               </div>
             </div>
           </form>
