@@ -55,14 +55,16 @@
 /*==========  section end home  ==========*/
 
 
-
 /*==========  section question ==========*/
 .wrapper-content
   background: #fff
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15)
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05)
   border-radius: 16px
   padding: 73px 40px 0
   overflow: hidden
+  transition: .3s ease
+  &:hover
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15)
 
 .about
   .box-text
@@ -152,8 +154,12 @@
 .question-box2
   .question-box__image
     min-width: 402px
+    max-width: 402px
+    height: 369px
+    margin: 0 auto -20px
     float: none
-    margin: 0 auto
+    img
+      max-height: 100%
 /*==========  section case end  ==========*/
 
 
@@ -283,10 +289,6 @@
     padding: 14px 40px 0
   h2
     margin: 0
-  //.btn
-  //  position: absolute
-  //  left: 0
-  //  bottom: 96px
 
 
 /*==========  section agitation end  ==========*/

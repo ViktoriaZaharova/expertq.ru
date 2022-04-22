@@ -1,9 +1,14 @@
 /*==========  header  ==========*/
 header {
   background: #fff;
-  -webkit-filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.15));
-          filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.15));
-  padding: 16px 0; }
+  -webkit-filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.05));
+          filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.05));
+  padding: 16px 0;
+  -webkit-transition: .3s ease;
+  transition: .3s ease; }
+  header:hover {
+    -webkit-filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.15));
+            filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.15)); }
 
 .logo {
   max-width: 265px;

@@ -70,11 +70,16 @@
 /*==========  section question ==========*/
 .wrapper-content {
   background: #fff;
-  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
-          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
   border-radius: 16px;
   padding: 73px 40px 0;
-  overflow: hidden; }
+  overflow: hidden;
+  -webkit-transition: .3s ease;
+  transition: .3s ease; }
+  .wrapper-content:hover {
+    -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15); }
 
 .about .box-text {
   margin: 29px 0 32px;
@@ -169,8 +174,12 @@
 
 .question-box2 .question-box__image {
   min-width: 402px;
-  float: none;
-  margin: 0 auto; }
+  max-width: 402px;
+  height: 369px;
+  margin: 0 auto -20px;
+  float: none; }
+  .question-box2 .question-box__image img {
+    max-height: 100%; }
 
 /*==========  section case end  ==========*/
 /*==========  section price ==========*/
