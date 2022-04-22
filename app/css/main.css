@@ -192,8 +192,7 @@
     margin: 0 auto 0; }
 
 .price-image {
-  position: relative;
-  margin: -50px 0 0; }
+  position: relative; }
   .price-image__item {
     display: -webkit-box;
     display: -ms-flexbox;
